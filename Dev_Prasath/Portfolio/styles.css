@@ -1,0 +1,677 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Josin Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+/* Header Styles */
+/* Home Section Styles */
+.Prasanth {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+#video-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Adjust the overlay color and opacity */
+}
+
+/* Adjust the background size to zoom out on smaller screens */
+@media (max-width: 768px) {
+    .Prasanth {
+        background-size: contain; /* Adjust as needed for smaller screens */
+    }
+}
+
+/* Header Styles */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+    position: relative; /* Ensure the position is set to relative */
+    z-index: 2; /* Set a higher z-index for the navigation */
+}
+
+ul {
+    list-style-type: none;
+    display: inline-block;
+    position: relative; /* Ensure the position is set to relative */
+    z-index: 2; /* Set a higher z-index for the unordered list */
+}
+
+
+/* Logo Styles */
+.logo {
+    color: white;
+    font-size: 25px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+span {
+    color: #C147E9;
+}
+
+/* Navigation Styles */
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+nav ul li a {
+    font-size: 20px;
+    color: #F9EFDB;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover {
+    color: #ECF9FF;
+    transition: 0.4s;
+}
+
+/* Button Styles */
+.btn,
+.button,
+.button-two,
+.card .button,
+.contact-me .button-two {
+    background-color: #C147E9;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 50px;
+    transition: transform 0.4s;
+}
+
+.btn:hover,
+.button:hover,
+.button-two:hover,
+.card .button:hover,
+.contact-me .button-two:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+/* Content Styles */
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+h4 {
+    color: #FFE194;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+h1 {
+    color: whitesmoke;
+    margin: 20px 0 20px;
+    font-size: 75px;
+    font-family: "Sofia", sans-serif;
+}
+
+h3 {
+    color: #F8FAE5;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+/* Newsletter Section Styles */
+.newsletter {
+    margin-top: 20px;
+}
+
+.newsletter form {
+    display: flex;
+    align-items: center;
+    max-width: 380px;
+    margin: 0 auto;
+}
+
+.newsletter form input {
+    flex: 1;
+    padding: 14px 15px;
+    border: 3px solid #C147E9;
+    border-radius: 30px;
+    outline: none;
+}
+
+.newsletter form button {
+    background-color: #C147E9;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    padding: 14px 30px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    margin-left: 10px; /* Adjust the margin to create space between input and button */
+}
+
+.newsletter form button:hover {
+    background-color: #A02DAE; /* Change the color on hover */
+}
+
+/* Portfolio Button */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover {
+    color: black;
+}
+
+
+/* About Me Section Styles */
+.about {
+    width: 100%;
+    height: 100vh; /* Set the height to the full viewport height */
+    padding: 150px 0; /* Adjust padding as needed */
+    background-color: #191919;
+}
+.about img {
+    height: auto;
+    width: 430px;
+    border-radius: 20px;
+    margin-top: 10px; 
+    margin-bottom:30px ;
+}
+
+.about-text {
+    width: 800px;
+    text-align: justify;
+}
+
+.main {
+    width: 1500px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-text h2 {
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.about-text h5 {
+    color: white;
+    letter-spacing: 4px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+
+.about-text p {
+    color: #fcfcfc;
+    letter-spacing: 2px;
+    line-height: 40px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+/* Button Styles for About Me Section */
+.about-text button {
+    background-color: #C147E9;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    padding: 13px 30px;
+    transition: 0.4s;
+    border-radius: 30px;
+}
+
+.about-text button:hover {
+    background-color: solid;
+    border: 2px solid #F8F4EC;
+    cursor: pointer;
+}
+
+/* Skills Section Styles */
+.skills {
+    background-color:#101010;
+    background-size: auto; /* Prevent image compression */
+    width: 100%;
+    padding: 100px 0;
+
+}
+
+.skills .pra p,
+.skills .card h5,
+.skills .card .pra p {
+    font-family: 'Josin Sans', sans-serif;
+}
+
+
+
+.title h2 {
+    color: white;
+    font-size: 75px;
+    width: 1130px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+.card {
+    height: 400px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #3D3B40;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+.card i {
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0;
+    color: #fff;
+}
+
+.card h5 {
+    color: white;
+    font-size: 23px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.pra p {
+    color: #FFBF9B;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 30px;
+    margin-top: 30px; 
+}
+
+.tech-icon {
+    max-width: 60px;
+    max-height: 40px;
+    margin-right: 20px; /* Adjust the spacing between icons */
+    transition: transform 0.3s ease-in-out; /* Add a smooth transform effect */
+}
+
+.tech-icon:hover {
+    transform: scale(1.2); /* Increase the size on hover */
+    cursor: pointer;
+}
+
+.card .button {
+    background-color: #C147E9;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    padding: 9px 22px;
+    transition: 0.4s;
+    border-radius: 30px;
+}
+
+.card .button:hover {
+    background-color: transparent;
+    border: 2px solid #C147E9;
+    cursor: pointer;
+}
+
+
+/* CSS Styles */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.projects {
+    background-color: #1a1a1a; /* Use your desired color */
+    overflow-x: auto;
+    text-align: center; /* Center align the title */
+    scrollbar-color: #00ffff #1a1a1a; /* Set the scrollbar track and thumb colors */
+}
+
+.project-title {
+    color: #ffffff; /* Text color for the title */
+    margin-top: 20px; /* Adjust the margin as needed */
+}
+
+.project-container, .ai-ml-container {
+    /* Your existing styles for the project containers */
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    overflow-x: auto;
+    scrollbar-width: thin;
+    white-space: nowrap; /* Prevent cards from wrapping to the next line */
+    justify-content: left; /* Center the cards horizontally */
+    align-items: flex-start; /* Align cards to the start vertically */
+    height: 270px; /* Fixed height for the container */
+    border-radius: 20px;
+}
+
+.project-card, .ai-ml-card {
+    /* Updated dimensions and background style for the project card */
+    width: 350px; /* Adjusted width */
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat; /* Ensure the background doesn't repeat */
+    position: relative;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s; /* Include box-shadow in the transition */
+    flex-shrink: 0; /* Prevent cards from shrinking */
+    box-shadow: 0 4px 8px rgba(0, 255, 255, 0.3); /* Neon light effect shadow */
+    border-radius: 20px;
+}
+
+.project-card:hover, .ai-ml-card:hover {
+    transform: scale(1.05);
+    box-shadow: 2px 8px 16px #FAEF9B; /* Adjusted shadow on hover */
+}
+
+.overlay {
+    /* Overlay styles for the link */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 100%);
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.project-card:hover .overlay, .ai-ml-card:hover .overlay {
+    opacity: 1;
+}
+
+/* Customize scrollbar */
+.project-container::-webkit-scrollbar, .ai-ml-container::-webkit-scrollbar {
+    width: 2px; /* Set the width of the scrollbar */
+}
+
+.project-container::-webkit-scrollbar-track, .ai-ml-container::-webkit-scrollbar-track {
+    background-color: #1a1a1a; /* Set the scrollbar track color */
+}
+
+.project-container::-webkit-scrollbar-thumb, .ai-ml-container::-webkit-scrollbar-thumb {
+    width: 50px;
+    background-color: #00ffff; /* Set the scrollbar thumb color */
+    border-radius: 6px; /* Set the border radius of the thumb */
+}
+
+/* Scrollbar Styles */
+body::-webkit-scrollbar {
+    width: 10px; /* Width of the scrollbar */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #F9EFDB; /* Color of the thumb */
+    border-radius: 10px; /* Rounded corners of the thumb */
+}
+
+body::-webkit-scrollbar-track {
+    background-color: #191919; /* Color of the track */
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background-color: #525CEB; /* Color of the thumb on hover */
+}
+
+/* Custom Scroll Bar Styles for Sub-Containers */
+.sub-topic-container {
+    overflow-x: auto;
+    position: relative;
+}
+
+.scrollbar {
+    width: 12px;
+    height: 100%;
+    background-color: #191919;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.thumb {
+    width: 400px;
+    background-color: #C147E9;
+    border-radius: 10px;
+    cursor: pointer;
+    position: absolute;
+}
+
+/* Adjust the color and size as needed */
+.sub-topic-container::-webkit-scrollbar {
+    width: 12px;
+}
+
+.sub-topic-container::-webkit-scrollbar-thumb {
+    background-color: #C147E9;
+    border-radius: 10px;
+}
+
+.sub-topic-container::-webkit-scrollbar-track {
+    background-color: #191919;
+}
+
+
+
+
+
+
+
+/* Contact Me Section */
+.contact-me {
+    background-color: #F6B17A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px; /* Adjust padding as needed */
+
+    /* Add any other styles you need for the contact-me section */
+}
+
+/* Style for Image Section */
+.contact-section.image-section {
+    flex: 1; /* Take 50% of the width */
+}
+
+/* Style for Content Section */
+.contact-section.content-section {
+    flex: 1; /* Take 50% of the width */
+    padding-left: 20px; /* Add padding for better separation */
+}
+
+/* Style for the Image */
+.contact-section.image-section img {
+    max-width: 75%; /* Make sure the image doesn't exceed its container */
+    height: auto;
+    border-radius: 60px; /* Add a border radius for a rounded look */
+    box-shadow: 5px 8px 16px #11235A;
+}
+
+.contact-section.content-section p {
+    margin: 20px 0 20px;
+    font-size: 55px;
+    font-family: "Sofia", sans-serif;
+    color: #11235A; /* Set the text color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+    letter-spacing: 2px; /* Increase letter spacing for a stylish look */
+}
+
+/* Neon Effect */
+.contact-section.content-section p::after {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #113946; /* Neon color */
+    z-index: -1;
+    overflow: hidden;
+    max-width: 100%;
+    white-space: nowrap;
+    animation: neon-animation 1.5s linear infinite alternate; /* Neon animation */
+}
+
+@keyframes neon-animation {
+    to {
+        opacity: 0.8;
+        text-shadow: 0 0 10px #2ecc71, 0 0 20px #2ecc71, 0 0 30px #2ecc71; /* Neon glow effect */
+    }
+}
+
+/* Style for the "Hire Me" button */
+.contact-section.content-section .button-two {
+    text-decoration: none;
+    background-color: #3498db;
+    color: #45474B;
+    width: 250px;
+    height: 30px;
+    padding: 5px 20px;
+    border-radius: 100px;
+    display: inline-block;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.contact-section.content-section .button-two:hover {
+    background-color: #D2E0FB;
+}
+
+
+
+/* Additional CSS for Footer Section */
+.footer {
+    background-image: url('foot.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    padding: 30px 0;
+
+}
+
+.footer-container {
+    display:inline-flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F6ECA9;
+    height: 250px;
+    width: 75%;
+    margin-top: 10px;
+    border-radius: 100px;
+}
+
+.footer h3 {
+    flex-basis: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #F6ECA9;
+}
+
+.footer-images-container {
+    display: flex;
+    overflow-x: auto;
+}
+
+.footer-item {
+    flex-shrink: 0;
+    margin: 0 10px;
+    position: relative;
+}
+
+.footer-item img {
+    margin-top: 20px;
+    margin-left: 5px
+    margin-right: 30px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 60px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    overflow:hidden;
+    display: inline-flex;
+    gap: 150px;
+    box-shadow: 2px 8px 16px #3D3B40;
+}
+
+.footer-item img:hover {
+    transform: scale(1.1);
+}
+
+
+
+
+
+.end {
+    position: fixed;
+    color: #C147E9;
+    bottom: 35px;
+    font-size: 10px;
+}
+
+
+

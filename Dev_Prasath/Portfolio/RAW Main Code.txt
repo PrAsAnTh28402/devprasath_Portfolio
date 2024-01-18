@@ -1,0 +1,1059 @@
+html code:  <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev_Prasath-Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="Profile_style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Xanh+Mono:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/simplebar@5.3.4/dist/simplebar.min.css" integrity="sha384-e3WYdb2W8E5S+9WK3S1TmlPv7WVfDWm6aQJS0w+ScqqHZhL8B/BWchGGUxRErr3Ng" crossorigin="anonymous">
+    <script src="https://unpkg.com/simplebar@5.3.4/dist/simplebar.min.js" integrity="sha384-F5T93Sez/Xd2E5X5eH9AzjvZeKb64+5wk1Q5P6hLjguMYUrAaC3iZS2MWOBccYD9" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+</head>
+
+<body>
+     <div class="Prasanth">
+        <video autoplay muted loop id="video-bg">
+            <source src="bg1.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="overlay"></div>
+        <nav>
+            <a href="#" id="portfolioButton" class="btn">Portfolio</a>
+            <div id="portfolioModal" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <p>You are already in my world mate!!! Just explore it 🌎😊</p>
+                </div>
+            </div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+            <a href="#mail" class="btn">Mail Me</a>
+        </nav>
+
+
+        <div class="content">
+            <h4>Welcome to My World</h4>
+            <h1> Dev <span>Prasath</span></h1>
+            <h3>Full-Stack Developer & AI Enthusiast</h3>
+            <div class="newsletter">
+                <div class="subscribe-section">
+                    <form action="mailto:prasanth28402@gmail.com" method="post" enctype="text/plain">
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- About Me Section -->
+<section class="about" id="about">
+    <div class="main">
+        <img src="bg2.jpg" alt="Background Image">
+        <div class="about-text">
+            <h2>About Me</h2>
+            <h5><span>Developer</span> and AI Enthusiast</h5>
+            <p>
+                Hey there! I'm Prasanth, a software developer and an AI enthusiast. My passion lies in creating robust software applications and exploring the fascinating world of artificial intelligence. Let's collaborate on innovative projects and make a positive impact together!
+            </p>
+            <button class="button">
+                <a href="https://www.linkedin.com/in/dev-prasath-r-p-6031a4179" target="_blank" rel="noopener noreferrer">
+                    Let's Connect
+                </a>
+            </button>
+        </div><!--End of class About text-->
+    </div><!--End of class main-->
+</section><!--End of Section about-->
+
+<!-- Skills Section -->
+<div id="skills" class="skills">
+    <div class="title">
+        <h2>Skills</h2>
+    </div>
+
+    <div class="box">
+        <!-- Full-Stack Development -->
+        <div class="card">
+            <i class="fas fa-laptop-code"></i>
+            <h5>Full-Stack Development</h5>
+            <div class="pra">
+                <p>
+                    Transforming ideas into reality with proficiency in both front-end and back-end technologies.
+                </p>
+                <!-- Add your downloaded icons with correct paths -->
+                <img src="html.png" alt="HTML5 Icon" title="HTML5" class="tech-icon">
+                <img src="css.png" alt="CSS3 Icon" title="CSS3" class="tech-icon">
+                <img src="js.png" alt="JavaScript Icon" title="JavaScript" class="tech-icon">
+            </div>
+        </div>
+
+        <!-- Advanced Technologies -->
+        <div class="card">
+            <i class="fas fa-rocket"></i>
+            <h5>Advanced Technologies</h5>
+            <div class="pra">
+                <p>
+                    In addition to my core skills, I have expertise in advanced technologies such as:
+                </p>
+                <!-- Add your downloaded icons with correct paths and adjust the width and height -->
+                <img src="ai.png" alt="AI Icon" title="Artificial Intelligence" class="tech-icon">
+                <img src="ml.png" alt="ML Icon" title="Machine Learning" class="tech-icon">
+                <img src="dl.png" alt="Deep Learning Icon" title="Deep Learning" class="tech-icon">
+                <img src="nlp.png" alt="NLP Icon" title="Natural Language Processing" class="tech-icon">
+                <img src="ds.png" alt="Data Science Icon" title="Data Science" class="tech-icon">  
+            </div>
+        </div>
+
+        <!-- Database Management -->
+        <div class="card">
+            <i class="fas fa-database"></i>
+            <h5>Database Management</h5>
+            <div class="pra">
+                <p>
+                    Efficiently organizing, storing, and retrieving data to ensure integrity, security, and optimal performance.
+                </p>
+                <img src="sql.png" alt="MySQL Icon" title="MySQL" class="tech-icon">
+                <img src="oracle.png" alt="Oracle Icon" title="Oracle Database" class="tech-icon">
+                <img src="mongo.png" alt="MongoDB Icon" title="MongoDB" class="tech-icon">
+            </div>
+        </div>
+
+        <!-- Programming Knowledge -->
+        <div class="card">
+            <i class="fas fa-code"></i>
+            <h5>Programming Knowledge</h5>
+            <div class="pra">
+                <p>
+                    Harnessing the power of programming to create innovative solutions and drive technological advancements.
+                </p>
+                <img src="python.png" alt="Python Icon" title="Python" class="tech-icon">
+                <img src="C.png" alt="Java Icon" title="C" class="tech-icon">
+                <img src="C++.png" alt="JavaScript Icon" title="C++" class="tech-icon">
+            </div>
+        </div>
+
+        <!-- Technical Knowledge -->
+        <div class="card">
+            <i class="fas fa-cogs"></i>
+            <h5>Technical Knowledge</h5>
+            <div class="pra">
+                <p>
+                    Proficient in various technical domains, ensuring a comprehensive understanding of modern technologies.
+                </p>
+                <img src="eh.png" alt="Ethical Hacking Icon" title="Ethical Hacking" class="tech-icon">
+                <img src="sdlc.png" alt="SDLC Icon" title="SDLC" class="tech-icon">
+                <img src="os.png" alt="Operating System Icon" title="Operating System" class="tech-icon">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<!-- Projects Section -->
+<section id="projects" class="projects">
+    <div class="title">
+        <h2>Projects</h2>
+    </div>
+
+    <!-- AI/ML Projects Container -->
+    <div class="project-container">
+        <h3>AI/ML Projects</h3>
+
+        <!-- Individual AI/ML Projects Go Here -->
+        <div class="project-card">
+            <div class="project-content">
+                <h3>🌟 Boosting Engagement with AI-Optimized Facebook Ads 🚀</h3>
+                <p>Revolutionized digital marketing using advanced machine learning techniques to skyrocket click-through rates by an impressive 25%! 📈</p>
+                <p>🔍 Analyzed user behavior and crafted personalized ad experiences for maximum impact. 🎯</p>
+                <p>🛠️ Tech Stack: Python, AI & ML, Keras, TensorFlow, Google Colab</p>
+            </div>
+            <div class="button">
+                <a href="GitHub Link" target="_blank" rel="noopener noreferrer">Explore on GitHub</a>
+            </div>
+        </div>
+
+        <!-- Add more AI/ML project cards as needed -->
+        <!-- Example structure for another AI/ML project -->
+        <div class="project-card">
+            <h5>Second AI/ML Project</h5>
+            <p>Description of the second AI/ML project.</p>
+            <!-- Additional content for the second project -->
+            <div class="button">
+                <a href="GitHub Link" target="_blank" rel="noopener noreferrer">Explore on GitHub</a>
+            </div>
+        </div>
+
+        <!-- Repeat for additional AI/ML projects -->
+    </div>
+
+    <!-- Full-Stack Projects Container -->
+    <div class="project-container">
+        <h3>Full-Stack Projects</h3>
+
+        <!-- Individual Full-Stack Projects Go Here -->
+        <div class="project-card">
+            <h5>Project 1</h5>
+            <p>Description of Full-Stack Project 1</p>
+            <!-- Additional content for the first full-stack project -->
+            <div class="button">
+                <a href="GitHub Link" target="_blank" rel="noopener noreferrer">Explore on GitHub</a>
+            </div>
+        </div>
+
+        <!-- Add more Full-Stack project cards as needed -->
+        <!-- Example structure for another Full-Stack project -->
+        <div class="project-card">
+            <h5>Project 2</h5>
+            <p>Description of Full-Stack Project 2</p>
+            <!-- Additional content for the second full-stack project -->
+            <div class="button">
+                <a href="GitHub Link" target="_blank" rel="noopener noreferrer">Explore on GitHub</a>
+            </div>
+        </div>
+
+        <!-- Repeat for additional Full-Stack projects -->
+    </div>
+
+    <!-- Academic Projects Container -->
+    <div class="project-container">
+        <h3>Academic Projects</h3>
+
+        <!-- Individual Academic Projects Go Here -->
+        <div class="project-card">
+            <h5>Project 1</h5>
+            <p>Description of Academic Project 1</p>
+            <!-- Additional content for the first academic project -->
+            <div class="button">
+                <a href="GitHub Link" target="_blank" rel="noopener noreferrer">Explore on GitHub</a>
+            </div>
+        </div>
+
+        <!-- Add more Academic project cards as needed -->
+        <!-- Example structure for another Academic project -->
+        <div class="project-card">
+            <h5>Project 2</h5>
+            <p>Description of Academic Project 2</p>
+            <!-- Additional content for the second academic project -->
+            <div class="button">
+                <a href="GitHub Link" target="_blank" rel="noopener noreferrer">Explore on GitHub</a>
+            </div>
+        </div>
+
+        <!-- Repeat for additional Academic projects -->
+    </div>
+</section>
+
+
+
+    <div id="contact" class="contact-me">
+        <p>Ready to Create Something Amazing?</p>
+        <a class="button-two" href="#">Hire Me</a>
+    </div>
+
+    <footer>
+        <p>DEV PRASATH</p>
+        <p>Connect with me on:</p>
+        <div class="social">
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-google"></i></a>
+        </div>
+        <p class="end">© 2024 Dev Prasath. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CSS Code: * {
+    padding: 0;
+    margin: 0;
+    font-family: 'Josin Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+/* Header Styles */
+/* Home Section Styles */
+.Prasanth {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+#video-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Adjust the overlay color and opacity */
+}
+
+/* Adjust the background size to zoom out on smaller screens */
+@media (max-width: 768px) {
+    .Prasanth {
+        background-size: contain; /* Adjust as needed for smaller screens */
+    }
+}
+
+/* Header Styles */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+    position: relative; /* Ensure the position is set to relative */
+    z-index: 2; /* Set a higher z-index for the navigation */
+}
+
+ul {
+    list-style-type: none;
+    display: inline-block;
+    position: relative; /* Ensure the position is set to relative */
+    z-index: 2; /* Set a higher z-index for the unordered list */
+}
+
+
+/* Logo Styles */
+.logo {
+    color: white;
+    font-size: 25px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+span {
+    color: #C147E9;
+}
+
+/* Navigation Styles */
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+nav ul li a {
+    font-size: 20px;
+    color: #C147E9;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover {
+    color: #ECF9FF;
+    transition: 0.4s;
+}
+
+/* Button Styles */
+.btn,
+.button,
+.button-two,
+.card .button,
+.contact-me .button-two {
+    background-color: #C147E9;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 50px;
+    transition: transform 0.4s;
+}
+
+.btn:hover,
+.button:hover,
+.button-two:hover,
+.card .button:hover,
+.contact-me .button-two:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+/* Content Styles */
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+h4 {
+    color: #FFE194;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+h1 {
+    color: whitesmoke;
+    margin: 20px 0 20px;
+    font-size: 75px;
+    font-family: "Sofia", sans-serif;
+}
+
+h3 {
+    color: #F8FAE5;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+/* Newsletter Section Styles */
+.newsletter {
+    margin-top: 20px;
+}
+
+.newsletter form {
+    display: flex;
+    align-items: center;
+    max-width: 380px;
+    margin: 0 auto;
+}
+
+.newsletter form input {
+    flex: 1;
+    padding: 14px 15px;
+    border: 3px solid #C147E9;
+    border-radius: 30px;
+    outline: none;
+}
+
+.newsletter form button {
+    background-color: #C147E9;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    padding: 14px 30px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    margin-left: 10px; /* Adjust the margin to create space between input and button */
+}
+
+.newsletter form button:hover {
+    background-color: #A02DAE; /* Change the color on hover */
+}
+
+/* Portfolio Button */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover {
+    color: black;
+}
+
+
+/* About Me Section Styles */
+.about {
+    width: 100%;
+    height: 100vh; /* Set the height to the full viewport height */
+    padding: 150px 0; /* Adjust padding as needed */
+    background-color: #191919;
+}
+.about img {
+    height: auto;
+    width: 430px;
+    border-radius: 10%;
+}
+
+.about-text {
+    width: 800px;
+    text-align: justify;
+}
+
+.main {
+    width: 1500px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-text h2 {
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.about-text h5 {
+    color: white;
+    letter-spacing: 4px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+
+.about-text p {
+    color: #fcfcfc;
+    letter-spacing: 2px;
+    line-height: 40px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+/* Button Styles for About Me Section */
+.about-text button {
+    background-color: #C147E9;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    padding: 13px 30px;
+    transition: 0.4s;
+    border-radius: 30px;
+}
+
+.about-text button:hover {
+    background-color: solid;
+    border: 2px solid #F8F4EC;
+    cursor: pointer;
+}
+
+/* Skills Section Styles */
+.skills {
+    background-color:#101010;
+    background-size: auto; /* Prevent image compression */
+    width: 100%;
+    padding: 100px 0;
+
+}
+
+.skills .pra p,
+.skills .card h5,
+.skills .card .pra p {
+    font-family: 'Josin Sans', sans-serif;
+}
+
+
+
+.title h2 {
+    color: white;
+    font-size: 75px;
+    width: 1130px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+.card {
+    height: 400px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #3D3B40;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+.card i {
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0;
+    color: #fff;
+}
+
+.card h5 {
+    color: white;
+    font-size: 23px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.pra p {
+    color: #FFBF9B;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 30px;
+    margin-top: 30px; 
+}
+
+.tech-icon {
+    max-width: 60px;
+    max-height: 40px;
+    margin-right: 20px; /* Adjust the spacing between icons */
+    transition: transform 0.3s ease-in-out; /* Add a smooth transform effect */
+}
+
+.tech-icon:hover {
+    transform: scale(1.2); /* Increase the size on hover */
+    cursor: pointer;
+}
+
+.card .button {
+    background-color: #C147E9;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    padding: 9px 22px;
+    transition: 0.4s;
+    border-radius: 30px;
+}
+
+.card .button:hover {
+    background-color: transparent;
+    border: 2px solid #C147E9;
+    cursor: pointer;
+}
+
+/* Contact Me Section Styles */
+.contact-me {
+    width: 100%;
+    height: 290px;
+    background: #191919;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-me p {
+    color: whitesmoke;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.contact-me .button-two {
+    background-color: #C147E9;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    padding: 13px 30px;
+    transition: 0.4s;
+    border-radius: 30px;
+}
+
+.contact-me .button-two:hover {
+    background-color: transparent;
+    border: 2px solid #C147E9;
+    cursor: pointer;
+}
+
+/* Footer Section Styles */
+footer {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background: #101010;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p:nth-child(1) {
+    font-size: 30px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+footer p:nth-child(2) {
+    color: white;
+    font-size: 17px;
+    width: 500px;
+    text-align: center;
+    line-height: 26px;
+}
+
+.social {
+    display: flex;
+}
+
+.social a {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #C147E9;
+    border-radius: 50%;
+    margin: 22px 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.social a:hover {
+    transform: scale(1.3);
+    transition: 0.3s;
+}
+
+.end {
+    position: absolute;
+    color: #C147E9;
+    bottom: 35px;
+    font-size: 14px;
+}
+
+
+/* Projects Section Styles */
+.projects {
+    background: #191919;
+    width: 100%;
+    padding: 100px 0;
+    overflow-x: hidden;
+    text-align: left; /* Align sub-titles to the left */
+}
+
+.projects h2 {
+    color: white;
+    font-size: 75px;
+    margin-bottom: 20px;
+}
+
+/* Sub Topic Container Styles */
+.sub-topic-container {
+    display: flex;
+    flex-wrap: wrap; /* Allow sub-containers to wrap onto the next line */
+    justify-content: space-between; /* Spread sub-containers with equal gaps */
+    margin-bottom: 30px;
+}
+
+.sub-topic {
+    background: #C147E9;
+    padding: 10px 20px;
+    border-radius: 30px;
+    margin: 0 0 10px 0; /* Add margin to create separation between sub-titles */
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* Add this CSS to your existing stylesheet */
+
+/* Projects Section Styles */
+.projects {
+    background: #191919;
+    width: 100%;
+    padding: 100px 0;
+    overflow-x: hidden;
+    text-align: center; /* Center-align project titles */
+}
+
+.projects h2 {
+    color: white;
+    font-size: 75px;
+    margin-bottom: 20px;
+}
+
+/* Sub Topic Container Styles */
+.sub-topic-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.sub-topic {
+    background: #C147E9;
+    padding: 10px 20px;
+    border-radius: 30px;
+    margin: 0 0 10px 0;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+/* Individual Project Cards Styles */
+.project-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start; /* Align items at the start of the container */
+    margin-bottom: 50px;
+}
+
+.project-card {
+    height: 300px;
+    width: 30%;
+    padding: 20px;
+    background: #191919;
+    border-radius: 30px;
+    margin: 0 0 10px 0;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+.project-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(#C147E9, #0F1035);
+    opacity: 0.8;
+    z-index: -1;
+    border-radius: 30px;
+    filter: blur(10px);
+}
+
+.project-card:hover {
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2), 0 2px 6px rgba(0, 0, 0, 0.1);
+    transform: scale(1.05);
+}
+
+.project-card .button {
+    width: 100%;
+    margin-top: auto; /* Align the button to the bottom of the container */
+}
+
+.project-card h5,
+.project-card p {
+    color: #750E21;
+}
+
+/* Button Styles */
+.project-card .button a {
+    background-color: #1D2B53;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    padding: 13px 30px;
+    transition: 0.4s;
+    border-radius: 50px;
+    display: flex;
+} 
+
+.project-card .button a:hover {
+    background-color: #1D2B53;
+    border: 2px solid #3D3B40;
+    cursor: pointer;
+}
+
+
+
+
+/* Scrollbar Styles */
+body::-webkit-scrollbar {
+    width: 10px; /* Width of the scrollbar */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #F9EFDB; /* Color of the thumb */
+    border-radius: 10px; /* Rounded corners of the thumb */
+}
+
+body::-webkit-scrollbar-track {
+    background-color: #191919; /* Color of the track */
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background-color: #525CEB; /* Color of the thumb on hover */
+}
+
+/* Custom Scroll Bar Styles for Sub-Containers */
+.sub-topic-container {
+    overflow-x: auto;
+    position: relative;
+}
+
+.scrollbar {
+    width: 12px;
+    height: 100%;
+    background-color: #191919;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.thumb {
+    width: 12px;
+    background-color: #C147E9;
+    border-radius: 10px;
+    cursor: pointer;
+    position: absolute;
+}
+
+/* Adjust the color and size as needed */
+.sub-topic-container::-webkit-scrollbar {
+    width: 12px;
+}
+
+.sub-topic-container::-webkit-scrollbar-thumb {
+    background-color: #C147E9;
+    border-radius: 10px;
+}
+
+.sub-topic-container::-webkit-scrollbar-track {
+    background-color: #191919;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+User
+Js code: document.addEventListener('DOMContentLoaded', function () {
+    // Add smooth scrolling to anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+
+            const targetId = this.getAttribute('href').substring(1);
+            const targetElement = document.getElementById(targetId);
+
+            if (targetElement) {
+                targetElement.scrollIntoView({
+                    behavior: 'smooth'
+                });
+            }
+        });
+    });
+
+    // Get all the skill cards
+    const skillCards = document.querySelectorAll('.card');
+
+    // Function to toggle visibility of skill cards based on scroll
+    function toggleSkillVisibility() {
+        // Loop through each skill card
+        skillCards.forEach((card, index) => {
+            // Calculate the distance from the top of the document to the top of the card
+            const cardTop = card.getBoundingClientRect().top;
+
+            // Set a threshold for visibility (adjust as needed)
+            const visibilityThreshold = window.innerHeight / 2;
+
+            // Check if the card is in the viewport
+            if (cardTop < visibilityThreshold) {
+                // Show the current card
+                card.style.display = 'block';
+            } else {
+                // Hide the card if it's not in the viewport
+                card.style.display = 'none';
+            }
+        });
+    }
+
+    // Call the function on page load and scroll
+    toggleSkillVisibility();
+
+    // Listen for scroll events
+    window.addEventListener('scroll', toggleSkillVisibility);
+
+    // Function to dynamically add icons for Full-Stack Development
+    function addIcons() {
+        // Get the Full-Stack Development container
+        const fullStackContainer = document.querySelector('.card[data-category="full-stack"] .pra');
+
+        // Create HTML for the icons
+        const iconsHTML = `
+            <i class="fab fa-html5" title="HTML5"></i>
+            <i class="fab fa-css3-alt" title="CSS3"></i>
+            <i class="fab fa-js" title="JavaScript"></i>
+        `;
+
+        // Add the icons to the container
+        fullStackContainer.insertAdjacentHTML('beforeend', iconsHTML);
+    }
+
+    // Call the function to add icons
+    addIcons();
+});
